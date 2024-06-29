@@ -30,6 +30,8 @@ I decided to become a Frontend developer. To do this, I came to the Preparatory 
 
 ## Experience
 
+rsschool-cv https://github.com/Afla555Afla/rsschool-cv/edit/gh-pages/cv.md
+
 *****
 
 ## Education

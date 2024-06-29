@@ -3,11 +3,13 @@
 *****
 
 ## Contact information:
-* Phone: +7 (978) 213-61-76
+* **Phone:** +7 (978) 213-61-76
 
-* E-mail: mstivoy@list.ru
+* **E-mail:** mstivoy@list.ru
 
-* GitHub: Afla555Afla
+* **GitHub:** Afla555Afla
+
+* **Discord:** Aleksei Boichenko (@afla555afla)
   
 ******
 
@@ -36,6 +38,10 @@ rsschool-cv https://github.com/Afla555Afla/rsschool-cv/edit/gh-pages/cv.md
 
 ## Education
 
+* **University:** Educational private institution of higher education "International Law Institute" Moscow , Jurisprudence
+* **Courses:**
+
 ******
 
 ## English
+**A1** (I am learning English using the Duolingo app)

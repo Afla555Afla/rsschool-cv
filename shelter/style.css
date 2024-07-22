@@ -17,3 +17,13 @@ body {
     margin: 0 auto;
     border: 1px solid red;
   }
+
+
+  .section-start-screen {
+    width: 1280px;
+    height: 908px;
+            background-color: rgba(33, 31, 32, 1);
+            background-image:
+                radial-gradient(ellipse at top left, rgba(91, 72, 58, 1), rgba(38, 36, 37, 1));
+
+  }

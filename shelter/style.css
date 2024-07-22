@@ -1,3 +1,4 @@
+
 body {
     min-height: 100vh;
     margin: 0;
@@ -9,6 +10,45 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .main-header {
+    position: absolute;
+    max-width: 1200px;
+    height: 60px;
+    top: 30px;
+  }
+
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .logo {
+    width: 600px;
+  }
+
+
+  .nav {
+    width: 600px;
+  }
+
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+
+  .main-main {
+
   }
 
 

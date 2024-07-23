@@ -1,3 +1,14 @@
+@font-face {
+  font-family: Georgia;
+  src: url("assets/fonts/georgia.ttf");
+}
+
+
+@font-face {
+  font-family: Arial;
+  src: url("assets/fonts/arialmt.ttf");
+}
+
 
 body {
     min-height: 100vh;
@@ -16,7 +27,7 @@ body {
 
   .main-header {
     position: absolute;
-    max-width: 1200px;
+    width: 1200px;
     height: 60px;
     top: 30px;
   }
@@ -30,13 +41,36 @@ body {
   }
 
 
-  .logo {
-    width: 600px;
+  .logotype {
+    display:inline-block;
+    flex-grow: 1;
+    width: 184px;
+    font-family: Georgia;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 35.2px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    text-decoration:none;
+    color: rgba(241, 205, 179, 1);
+  }
+
+
+  .logotype span {
+    display:block;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14.95px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
   }
 
 
   .nav {
-    width: 600px;
+    width: 500px;
+    height: 27px;
   }
 
 
@@ -44,6 +78,35 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .nav-item {
+    list-style-type: none;
+  }
+
+
+  .nav-link{
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(205, 205, 205, 1);
+  }
+
+
+  .nav-link {
+    text-decoration: none;
+    background-image: linear-gradient(rgba(241, 205, 179, 1), rgba(241, 205, 179, 1));
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 3px;
+    transition: background-size .3s;
+  }
+  .nav-link:hover {
+    background-size: 100% 2px;
   }
 
 
@@ -55,7 +118,6 @@ body {
   .container {
     max-width: 1280px;
     margin: 0 auto;
-    border: 1px solid red;
   }
 
 

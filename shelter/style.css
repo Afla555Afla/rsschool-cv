@@ -415,3 +415,14 @@ body {
     
 
   }
+
+
+  .btn-left {
+    font-size:20px;
+    width: 14px;
+    height: 6px;
+    gap: 0px;
+    opacity: 0px;
+    color: rgba(41, 41, 41, 1);
+
+  }

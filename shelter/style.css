@@ -110,11 +110,6 @@ body {
   }
 
 
-  .main-main {
-
-  }
-
-
   .container {
     max-width: 1280px;
     margin: 0 auto;
@@ -205,3 +200,130 @@ body {
     gap: 0px;
     opacity: 0px;
   }
+
+
+  .section-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .section-about {
+    width: 1280px;
+    height: 588px;
+    top: 908px;
+    padding: 80px 40px 100px 40px;
+    gap: 0px;
+    opacity: 0px;
+    background: rgba(255, 255, 255, 1);
+
+  }
+
+
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+
+  .about-content {
+    width: 1200px;
+    height: 408px;
+    top: 80px;
+    left: 40px;
+    padding: 0px 175px 0px 175px;
+    gap: 0px;
+    opacity: 0px;
+
+  }
+
+
+  .about-pets {
+    width: 300px;
+    height: 408px;
+    left: 175px;
+    gap: 0px;
+    opacity: 0px;
+
+  }
+
+
+  .about-shelter {
+    width: 430px;
+    height: 380px;
+    top: 14px;
+    left: 595px;
+    gap: 0px;
+    opacity: 0px;
+
+  }
+
+
+  .about-heading {
+    width: 370px;
+    height: 90px;
+    gap: 0px;
+    opacity: 0px;
+
+  }
+
+
+  .about-heading {
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: rgba(84, 84, 84, 1);
+
+  }
+
+  .about-text-1 {
+    width: 430px;
+    height: 96px;
+    top: 115px;
+    gap: 0px;
+    opacity: 0px;
+
+  }
+
+
+  .about-text-1 {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(76, 76, 76, 1);
+
+  }
+
+
+  .about-text-2 {
+    width: 430px;
+    height: 144px;
+    top: 236px;
+    gap: 0px;
+    opacity: 0px;
+
+  }
+
+
+  .about-text-2 {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(76, 76, 76, 1);
+
+  }
+
+
+  

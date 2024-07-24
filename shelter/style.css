@@ -119,7 +119,7 @@ body {
   .section-start-screen {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-end;
   }
 
@@ -129,7 +129,7 @@ body {
     height: 908px;
             background-color: rgba(33, 31, 32, 1);
             background-image: radial-gradient(ellipse at top left, rgba(91, 72, 58, 1), rgba(38, 36, 37, 1));
-
+            border: 2px solid rgba(241, 205, 179, 1);
   }
 
 
@@ -187,8 +187,25 @@ body {
 
 
   .makeBtn:hover {
-    background-color: white;
-    
+    width: Hug (207px)px;
+    height: Hug (52px)px;
+    top: 391px;
+    left: 327px;
+    gap: 0px;
+    opacity: 0px;
+
+
+  }
+
+
+  .button-shelter-text {
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.1px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: rgba(41, 41, 41, 1);
 
   }
 
@@ -205,7 +222,7 @@ body {
   .section-about {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
 
@@ -218,7 +235,7 @@ body {
     gap: 0px;
     opacity: 0px;
     background: rgba(255, 255, 255, 1);
-
+    border: 2px solid rgba(241, 205, 179, 1);
   }
 
 
@@ -327,6 +344,14 @@ body {
 
 
   .section-pets {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .section-pets {
     width: 1280px;
     height: 877px;
     top: 1496px;
@@ -334,7 +359,7 @@ body {
     gap: 0px;
     opacity: 0px;
     background: rgba(246, 246, 246, 1);
-
+    border: 2px solid rgba(241, 205, 179, 1);
   }
 
 
@@ -397,32 +422,107 @@ body {
   }
 
 
-  .petsBtnleft {
+  .button-arrow {
     width: Hug (52px)px;
     height: Hug (52px)px;
     top: 192px;
     padding: 23px 19px 23px 19px;
     gap: 0px;
     border-radius: 100px 100px 100px 100px;
-    border: 2px 0px 0px 0px;
     opacity: 0px;
     border: 2px solid rgba(241, 205, 179, 1)
   }
 
 
-  .petsBtnleft:hover {
+  .button-arrow:hover {
     background-color: rgba(241, 205, 179, 1);
     
 
   }
 
 
-  .btn-left {
+  .button-arrow-text {
     font-size:20px;
     width: 14px;
     height: 6px;
     gap: 0px;
     opacity: 0px;
     color: rgba(41, 41, 41, 1);
+
+  }
+
+
+  .pets-card-katrine {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .pets-card-katrine {
+    width: 270px;
+    height: 435px;
+    left: 105px;
+    padding: 0px 0px 30px 0px;
+    gap: 30px;
+    border-radius: 9px 9px 9px 9px;
+    opacity: 0px;
+    background: rgba(250, 250, 250, 1);
+
+  }
+
+
+  .pets-katrine {
+    width: 270px;
+    height: 270px;
+    gap: 0px;
+    border-radius: 9px 9px 0px 0px;
+    opacity: 0px;
+
+  }
+
+
+  .katrine {
+    width: 74px;
+    height: 23px;
+    top: 300px;
+    left: 98px;
+    gap: 0px;
+    opacity: 0px;
+
+  }
+
+
+  .pets-name {
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22.72px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: rgba(84, 84, 84, 1);
+
+  }
+
+
+  .button-pets-card {
+    width: Hug (207px)px;
+    height: Hug (52px)px;
+    border: 2px solid rgba(241, 205, 179, 1);
+    background: rgba(250, 250, 250, 1);
+    top: 391px;
+    left: 70px;
+    padding: 15px 45px 15px 45px;
+    gap: 10px;
+    border-radius: 100px 100px 100px 100px;
+    opacity: 0px;
+    
+
+  }
+
+
+  .button-pets-card:hover {
+    background: rgba(241, 205, 179, 1);
 
   }

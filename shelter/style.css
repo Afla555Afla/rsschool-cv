@@ -699,8 +699,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
-    border: 2px solid rgba(241, 205, 179, 1);
+    align-items: center;
   }
 
 
@@ -746,5 +745,89 @@ body {
     line-height: 18px;
     text-align: left;
     color: rgba(178, 178, 178, 1);
+
+  }
+
+
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .footer-content {
+    width: 1280px;
+    height: 350px;
+    background-color: rgba(33, 31, 32, 1);
+    background-image: radial-gradient(ellipse at top left, rgba(91, 72, 58, 1), rgba(38, 36, 37, 1));
+
+  }
+
+
+  .footer-content-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+  }
+
+
+  .footer-content-box {
+    width: 1200px;
+    height: 310px;
+
+  }
+
+
+  .footer-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+  }
+
+
+  .footer-box {
+    width: 300px;
+    height: 234px;
+    margin-top: 16px;
+    
+  }
+
+
+  .footer-box-text {
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+  }
+
+
+  .footer-box-contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .footer-contacts-link {
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: rgba(241, 205, 179, 1);
+    margin-left: 20px;
+    text-decoration: none;
+
 
   }

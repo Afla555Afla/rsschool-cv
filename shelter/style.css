@@ -614,3 +614,137 @@ body {
     color: rgba(84, 84, 84, 1);
 
   }
+
+
+  .section-donation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .section-donation {
+    width: 1280px;
+    height: 462px;
+    background: rgba(246, 246, 246, 1);
+
+  }
+
+
+  .donation-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+
+  .donation-content {
+    width: 915px;
+    height: 282px;
+
+  }
+
+
+  .donation-dog-img {
+    width: 505px;
+    height: 261px;
+
+  }
+
+
+  .donation-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+  }
+
+
+  .donation-contacts {
+    width: 380px;
+    height: 282px;
+
+  }
+
+
+  .donation-contacts-heading {
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: rgba(84, 84, 84, 1);
+
+  }
+
+
+  .donation-contacts-text {
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16.5px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: rgba(84, 84, 84, 1);
+
+  }
+
+
+  .button-donation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid rgba(241, 205, 179, 1);
+  }
+
+
+  .button-donation {
+    width: Hug (349px)px;
+    height: Hug (43px)px;
+    top: 147px;
+    padding: 10px 15px 10px 15px;
+    gap: 10px;
+    border-radius: 9px 9px 9px 9px;
+    opacity: 0px;
+    border: 2px solid rgba(241, 205, 179, 1);
+    background: rgba(241, 205, 179, 1);
+
+  }
+
+
+  .donation-item {
+    width: 30px;
+    height: 23px;
+    color: rgba(41, 41, 41, 1);
+
+  }
+  
+  
+  .button-donation-text {
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: rgba(84, 84, 84, 1);
+
+  }
+
+
+  .donation-contacts-text-italic {
+    font-family: Arial;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: rgba(178, 178, 178, 1);
+
+  }

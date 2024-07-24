@@ -25,19 +25,19 @@ body {
   }
 
 
-  .main-header {
-    position: absolute;
-    width: 1200px;
-    height: 60px;
-    top: 30px;
-  }
-
-
   .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+
+
+  .main-header {
+    position: absolute;
+    width: 1200px;
+    height: 60px;
+    top: 30px;
   }
 
 
@@ -129,7 +129,7 @@ body {
     height: 908px;
             background-color: rgba(33, 31, 32, 1);
             background-image: radial-gradient(ellipse at top left, rgba(91, 72, 58, 1), rgba(38, 36, 37, 1));
-            border: 2px solid rgba(241, 205, 179, 1);
+        
   }
 
 
@@ -182,18 +182,13 @@ body {
     border-radius: 100px 100px 100px 100px;
     opacity: 0px;
     background: rgba(241, 205, 179, 1);
-
+    border: 2px solid rgba(241, 205, 179, 1);
   }
 
 
   .makeBtn:hover {
-    width: Hug (207px)px;
-    height: Hug (52px)px;
-    top: 391px;
-    left: 327px;
-    gap: 0px;
-    opacity: 0px;
-
+    background: rgba(241, 205, 179, 1);
+    border: 2px solid rgba(241, 205, 179, 1);
 
   }
 
@@ -230,12 +225,8 @@ body {
   .section-about {
     width: 1280px;
     height: 588px;
-    top: 908px;
-    padding: 80px 40px 100px 40px;
-    gap: 0px;
-    opacity: 0px;
     background: rgba(255, 255, 255, 1);
-    border: 2px solid rgba(241, 205, 179, 1);
+
   }
 
 
@@ -266,7 +257,7 @@ body {
     left: 175px;
     gap: 0px;
     opacity: 0px;
-
+  
   }
 
 
@@ -277,7 +268,7 @@ body {
     left: 595px;
     gap: 0px;
     opacity: 0px;
-
+    
   }
 
 
@@ -354,12 +345,7 @@ body {
   .section-pets {
     width: 1280px;
     height: 877px;
-    top: 1496px;
-    padding: 80px 40px 100px 40px;
-    gap: 0px;
-    opacity: 0px;
-    background: rgba(246, 246, 246, 1);
-    border: 2px solid rgba(241, 205, 179, 1);
+    background: rgba(246, 246, 246, 1)
   }
 
 
@@ -378,7 +364,6 @@ body {
     left: 40px;
     gap: 0px;
     opacity: 0px;
-
   }
 
 
@@ -452,7 +437,7 @@ body {
   }
 
 
-  .pets-card-katrine {
+  .pets-card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -460,7 +445,7 @@ body {
   }
 
 
-  .pets-card-katrine {
+  .pets-card {
     width: 270px;
     height: 435px;
     left: 105px;
@@ -473,22 +458,11 @@ body {
   }
 
 
-  .pets-katrine {
+  .pets-img {
     width: 270px;
     height: 270px;
     gap: 0px;
     border-radius: 9px 9px 0px 0px;
-    opacity: 0px;
-
-  }
-
-
-  .katrine {
-    width: 74px;
-    height: 23px;
-    top: 300px;
-    left: 98px;
-    gap: 0px;
     opacity: 0px;
 
   }
@@ -525,4 +499,29 @@ body {
   .button-pets-card:hover {
     background: rgba(241, 205, 179, 1);
 
+  }
+
+  .button-slider {
+
+  }
+
+
+  .button-slider {
+    width: Hug (261px)px;
+    height: Hug (52px)px;
+    border: 2px solid rgba(241, 205, 179, 1);
+    background: rgba(241, 205, 179, 1);
+    top: 645px;
+    left: 470px;
+    padding: 15px 45px 15px 45px;
+    gap: 10px;
+    border-radius: 100px 100px 100px 100px;
+    opacity: 0px;
+
+  }
+
+
+  .button-slider:hover {
+    border: 2px solid rgba(241, 205, 179, 1);
+    background: rgba(241, 205, 179, 1);
   }

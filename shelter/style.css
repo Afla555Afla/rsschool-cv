@@ -10,6 +10,11 @@
 }
 
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
     min-height: 100vh;
     margin: 0;
@@ -208,9 +213,7 @@ body {
   .start-screen-puppy {
     width: 698px;
     height: 728px;
-    left: 502px;
-    gap: 0px;
-    opacity: 0px;
+    
   }
 
 
@@ -226,14 +229,14 @@ body {
     width: 1280px;
     height: 588px;
     background: rgba(255, 255, 255, 1);
-
+    
   }
 
 
   .about-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
   }
@@ -242,32 +245,28 @@ body {
   .about-content {
     width: 1200px;
     height: 408px;
-    top: 80px;
-    left: 40px;
-    padding: 0px 175px 0px 175px;
-    gap: 0px;
-    opacity: 0px;
-
+    
   }
 
 
   .about-pets {
     width: 300px;
     height: 408px;
-    left: 175px;
-    gap: 0px;
-    opacity: 0px;
   
+  }
+
+
+  .about-shelter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
 
 
   .about-shelter {
     width: 430px;
     height: 380px;
-    top: 14px;
-    left: 595px;
-    gap: 0px;
-    opacity: 0px;
     
   }
 
@@ -360,10 +359,6 @@ body {
   .pets-content {
     width: 1200px;
     height: 697px;
-    top: 80px;
-    left: 40px;
-    gap: 0px;
-    opacity: 0px;
   }
 
 
@@ -501,10 +496,6 @@ body {
 
   }
 
-  .button-slider {
-
-  }
-
 
   .button-slider {
     width: Hug (261px)px;
@@ -524,4 +515,102 @@ body {
   .button-slider:hover {
     border: 2px solid rgba(241, 205, 179, 1);
     background: rgba(241, 205, 179, 1);
+  }
+
+
+  .section-help {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .section-help {
+    width: 1280px;
+    height: 611px;
+    background: rgba(255, 255, 255, 1);
+  
+  }
+
+
+  .help-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+  .help-content {
+    width: 1200px;
+    height: 431px;
+    
+  }
+
+
+  .help-heading {
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    text-align: center;    
+    color: rgba(84, 84, 84, 1);
+
+  }
+
+
+  .help-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .help-box {
+    width: 1026px;
+    height: 281px;
+    
+  }
+
+
+  .help-box-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+
+  .help-box-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+
+  .help-box-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 113px;
+  
+  }
+
+
+  .box-item-text{
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: rgba(84, 84, 84, 1);
+
   }

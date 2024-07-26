@@ -109,10 +109,27 @@ body {
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 3px;
-    transition: background-size .3s;
+    transition: background-size 0s;
   }
+
+
   .nav-link:hover {
     background-size: 100% 2px;
+  }
+
+
+  #about-stop {
+    text-decoration: underline;
+    text-decoration-color: rgba(241, 205, 179, 1);
+    background-image: linear-gradient(rgba(241, 205, 179, 1), rgba(241, 205, 179, 1));
+    background-size: 100% 2px;
+    cursor: default;
+  }
+
+
+  #abot-stpo:hover {
+    background-size: 100% 2px;
+    background-image: linear-gradient(rgba(241, 205, 179, 1), rgba(241, 205, 179, 1));
   }
 
 
@@ -193,9 +210,9 @@ body {
 
 
   .makeBtn:hover {
-    background: rgba(241, 205, 179, 1);
-    border: 2px solid rgba(241, 205, 179, 1);
-
+    background: rgba(253, 220, 196, 1);
+    border: 2px solid rgba(253, 220, 196, 1);
+    cursor: pointer;
   }
 
 
@@ -413,17 +430,16 @@ body {
 
 
   .button-arrow:hover {
-    background-color: rgba(241, 205, 179, 1);
-    
-
+    background: rgba(253, 220, 196, 1);
+    border: 2px solid rgba(253, 220, 196, 1);
+    cursor: pointer;
   }
 
 
-  .button-arrow-text {
+  .button-arrow-content{
     width: 14px;
     height: 6px;
-    color: rgba(41, 41, 41, 1);
-
+    
   }
 
 
@@ -481,8 +497,9 @@ body {
 
 
   .button-pets-card:hover {
-    background: rgba(241, 205, 179, 1);
-
+    background: rgba(253, 220, 196, 1);
+    border: 2px solid rgba(253, 220, 196, 1);
+    cursor: pointer;
   }
 
 
@@ -491,8 +508,6 @@ body {
     height: Hug (52px)px;
     border: 2px solid rgba(241, 205, 179, 1);
     background: rgba(241, 205, 179, 1);
-    top: 645px;
-    left: 470px;
     padding: 15px 45px 15px 45px;
     gap: 10px;
     border-radius: 100px 100px 100px 100px;
@@ -502,8 +517,9 @@ body {
 
 
   .button-slider:hover {
-    border: 2px solid rgba(241, 205, 179, 1);
-    background: rgba(241, 205, 179, 1);
+    background: rgba(253, 220, 196, 1);
+    border: 2px solid rgba(253, 220, 196, 1);
+    cursor: pointer;
   }
 
 
@@ -695,14 +711,19 @@ body {
   .button-donation {
     width: Hug (349px)px;
     height: Hug (43px)px;
-    top: 147px;
     padding: 10px 15px 10px 15px;
     gap: 10px;
     border-radius: 9px 9px 9px 9px;
-    opacity: 0px;
     border: 2px solid rgba(241, 205, 179, 1);
     background: rgba(241, 205, 179, 1);
 
+  }
+
+
+  .button-donation:hover {
+    background: rgba(253, 220, 196, 1);
+    border: 2px solid rgba(253, 220, 196, 1);
+    cursor: pointer;
   }
 
 
@@ -904,7 +925,7 @@ body {
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 3px;
-    transition: background-size .3s;
+    transition: background-size 0s;
   }
   
   

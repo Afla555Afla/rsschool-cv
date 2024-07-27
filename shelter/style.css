@@ -109,7 +109,7 @@ body {
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 3px;
-    transition: background-size 0s;
+    transition: background-size 0.3s;
   }
 
 
@@ -118,18 +118,15 @@ body {
   }
 
 
-  #about-stop {
-    text-decoration: underline;
-    text-decoration-color: rgba(241, 205, 179, 1);
-    background-image: linear-gradient(rgba(241, 205, 179, 1), rgba(241, 205, 179, 1));
-    background-size: 100% 2px;
+  .about-stop {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(205, 205, 205, 1);
+    border-bottom: 2px solid rgba(241, 205, 179, 1);
+    padding-bottom: 0px;
     cursor: default;
-  }
-
-
-  #abot-stpo:hover {
-    background-size: 100% 2px;
-    background-image: linear-gradient(rgba(241, 205, 179, 1), rgba(241, 205, 179, 1));
   }
 
 
@@ -206,6 +203,7 @@ body {
     opacity: 0px;
     background: rgba(241, 205, 179, 1);
     border: 2px solid rgba(241, 205, 179, 1);
+    transition: 0.3s;
   }
 
 
@@ -413,9 +411,6 @@ body {
   .pets-slider {
     width: 1200px;
     height: 435px;
-    top: 150px;
-    gap: 0px;
-    opacity: 0px;
 
   }
 
@@ -425,7 +420,8 @@ body {
     height: Hug (52px)px;
     padding: 19px 19px 19px 19px;
     border-radius: 100px 100px 100px 100px;  opacity: 0px;
-    border: 2px solid rgba(241, 205, 179, 1)
+    border: 2px solid rgba(241, 205, 179, 1);
+    transition: 0.3s;
   }
 
 
@@ -455,6 +451,13 @@ body {
     height: 435px;
     background: rgba(250, 250, 250, 1);
 
+  }
+
+
+  .pets-card:hover button {
+    background: rgba(253, 220, 196, 1);
+    border: 2px solid rgba(253, 220, 196, 1);
+    cursor: pointer;
   }
 
 
@@ -489,7 +492,7 @@ body {
     margin-bottom: 30px;
     gap: 10px;
     border-radius: 100px 100px 100px 100px;
-    opacity: 0px;
+    transition: 0.3s;
     
 
   }
@@ -510,7 +513,7 @@ body {
     padding: 15px 45px 15px 45px;
     gap: 10px;
     border-radius: 100px 100px 100px 100px;
-    opacity: 0px;
+    transition: 0.3s;
 
   }
 
@@ -715,7 +718,7 @@ body {
     border-radius: 9px 9px 9px 9px;
     border: 2px solid rgba(241, 205, 179, 1);
     background: rgba(241, 205, 179, 1);
-
+    transition: 0.3s;
   }
 
 
@@ -837,8 +840,13 @@ body {
     color: rgba(241, 205, 179, 1);
     margin-left: 20px;
     text-decoration: none;
+    transition: 0.3s;
+
+  }
 
 
+  .footer-contacts-link:hover {
+    color: rgba(253, 220, 196, 1);;
   }
 
 

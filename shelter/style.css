@@ -119,6 +119,7 @@ body {
 
 
   .about-stop {
+    list-style-type: none;
     margin-top: 3px;
     font-family: Arial;
     font-size: 15px;
@@ -1018,6 +1019,7 @@ body {
 
 
   .about-stop1 {
+    list-style-type: none;
     margin-top: 3px;
     font-family: Arial;
     font-size: 15px;

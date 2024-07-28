@@ -619,9 +619,12 @@ body {
 
   .help-box{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 119px;
+    row-gap: 50px;
+    
   }
 
 
@@ -632,31 +635,13 @@ body {
   }
 
 
-  .help-box-start {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-  }
-
-
-  .help-box-end {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-  }
-
-
   .help-box-item {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     height: 113px;
-  
+    
   }
 
 
@@ -930,6 +915,20 @@ body {
   /* Our Pets Site*/
 
 
+  .header-background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .header-background {
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+  }
+  
+  
   .header1 {
     display: flex;
     flex-direction: row;

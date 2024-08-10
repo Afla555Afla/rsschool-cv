@@ -1224,3 +1224,152 @@ body {
     color: rgba(205, 205, 205, 1);
     cursor: no-drop;
   }
+
+
+  @media (max-width: 768px) {
+
+    .header {
+      width: 708px;
+      height: 60px;
+      transform: translate(245px, 1px);
+      
+    }
+    
+    
+    .section-start-screen {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      width: 768px;
+      height: 1165px;
+      
+    }
+    
+    
+    .start-screen-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  
+  
+    .start-screen-block {
+      width: 569px;
+      height: 1015px;
+
+    }
+
+
+    .start-screen-content {
+      transform: translate(0px, -97px);
+    }
+
+
+    .start-screen-puppy {
+      width: 569px;
+      height: 593px;  
+      transform: translate(70px, 0px);
+      
+    }
+
+    
+    .makeBtn {
+      transform: translate(125px, -2px);
+    }
+
+
+    .section-about {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 768px;
+      height: 1048px;
+      
+    }
+
+
+    .about-content {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: flex-end;
+      align-items: center;
+      width: 437px;
+      height: 868px;
+      
+    }
+
+
+    .about-shelter {
+      transform: translate(0px, -10px);
+    }
+
+
+    .about-text-1 {
+      transform: translate(0px, -1px);
+    }
+
+
+    .about-text-2 {
+      transform: translate(0px, -3px);
+    }
+
+
+    .about-pets{
+      transform: translate(0px, 70px);
+    }
+
+
+    .pets-slider {
+      width: 708px;
+      height: 435px;
+      
+    }
+
+
+    .pets-card {
+      margin-left: 16px;
+      margin-right: 16px;
+  
+    }
+
+
+    .card-3 {
+      display: none;
+    }
+
+
+    .section-help {
+      width: 768px;
+      height: 779px;
+
+    }
+
+
+    .help-content {
+      width: 630px;
+      height: 599px;
+
+    }
+
+
+    .help-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      column-gap: 0px;
+      row-gap: 0px;
+      width: 630px;
+      height: 449px;
+
+    }
+
+
+    .help-box-item {
+      margin-left: 30px;
+      margin-right: 30px; 
+    }
+  }

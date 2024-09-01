@@ -38,7 +38,6 @@ body {
     position: absolute;
     max-width: 1280px;
     width: 100%;
-
     top: 30px;
   }
 
@@ -395,8 +394,9 @@ body {
 
 
   .section-pets {
-    width: 1280px;
-    height: 877px;
+    max-width: 1280px;
+    width: 100%;
+
     background: rgba(246, 246, 246, 1);
     
   }
@@ -407,14 +407,17 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    transform: translate(0px,-10px);
+  
   }
 
 
   .pets-content {
-    width: 1200px;
-    height: 697px;
-    
+    max-width: 1200px;
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 80px;
+    margin-bottom: 100px;
   }
 
 
@@ -427,7 +430,7 @@ body {
     text-align: center;
     color: rgba(84, 84, 84, 1);
     margin: 0px;
-
+    margin-bottom: 60px;
   }
 
 
@@ -441,9 +444,9 @@ body {
 
 
   .pets-slider {
-    width: 1200px;
-    height: 435px;
-
+    max-width: 1200px;
+    width: 100%;
+    margin-bottom: 60px;
   }
 
 
@@ -454,6 +457,7 @@ body {
     border-radius: 100px 100px 100px 100px;  opacity: 0px;
     border: 2px solid rgba(241, 205, 179, 1);
     transition: 0.3s;
+    
   }
 
 
@@ -480,7 +484,6 @@ body {
 
   .pets-card {
     width: 270px;
-    height: 435px;
     margin-left: 36px;
     margin-right: 36px;
     background: rgba(250, 250, 250, 1);
@@ -500,7 +503,7 @@ body {
     height: 270px;
     gap: 0px;
     border-radius: 9px 9px 0px 0px;
-    opacity: 0px;
+    margin-bottom: 29px;
 
   }
 
@@ -513,7 +516,7 @@ body {
     letter-spacing: 0.06em;
     text-align: center;
     color: rgba(84, 84, 84, 1);
-
+    margin-bottom: 30px;
   }
 
 
@@ -578,8 +581,10 @@ body {
 
 
   .section-help {
-    width: 1280px;
-    height: 611px;
+    max-width: 1280px;
+    width: 100%;
+    
+    height: 100%;
     background: rgba(255, 255, 255, 1);
   
   }
@@ -590,14 +595,17 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    transform: translate(0px,-10px);
+    
   }
   
 
   .help-content {
-    width: 1200px;
-    height: 431px;
-    
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 
 
@@ -609,7 +617,7 @@ body {
     letter-spacing: 0.06em;
     text-align: center;    
     color: rgba(84, 84, 84, 1);
-
+    margin-bottom: 60px;
   }
 
 
@@ -619,14 +627,15 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     column-gap: 119px;
-    row-gap: 50px;
+    row-gap: 54px;
     
   }
 
 
   .help-box {
-    width: 1026px;
-    height: 281px;
+    max-width: 1026px;
+    width: 100%;
+    
     
   }
 
@@ -672,8 +681,8 @@ body {
 
 
   .section-donation {
-    width: 1280px;
-    height: 462px;
+    max-width: 1280px;
+    width: 100%;
     background: rgba(246, 246, 246, 1);
 
   }
@@ -684,20 +693,23 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    transform: translate(0px,-10px)
   }
 
 
   .donation-content {
     width: 915px;
     height: 282px;
-
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 
 
   .donation-dog-img {
-    width: 505px;
-    height: 261px;
+    max-width: 505px;
+    width: 100%;
+    min-width: 120px;
 
   }
 
@@ -712,7 +724,8 @@ body {
 
 
   .donation-contacts {
-    width: 380px;
+    max-width: 380px;
+    width: 100%;
     height: 282px;
 
   }
@@ -830,8 +843,8 @@ body {
   }
 
   .footer-content {
-    width: 1280px;
-    height: 350px;
+    max-width: 1280px;
+    width: 100%;
     
   }
 
@@ -840,14 +853,17 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: flex-end;
     
   }
 
 
   .footer-content-box {
-    width: 1200px;
-    height: 310px;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
 
   }
 
@@ -862,10 +878,11 @@ body {
 
 
   .footer-box {
+    min-width: 300px;
     width: 300px;
     height: 234px;
-    margin-top: 16px;
-    
+    margin-bottom: 60px;
+    margin-right: 40px;
   }
 
 
@@ -879,9 +896,11 @@ body {
 
 
   .footer-box1 {
+    min-width: 300px;
     width: 300px;
     height: 234px;
-    margin-top: 16px;
+    margin-bottom: 60px;
+    margin-right: 40px;
     transform: translate(-11px,0px)
   }
 
@@ -922,6 +941,13 @@ body {
 
   .footer-contacts-link:hover {
     color: rgba(253, 220, 196, 1);;
+  }
+
+
+  .footer-puppy {
+    max-width: 300px;
+    width: 100%;
+    min-width: 120px;
   }
 
 
@@ -1245,6 +1271,54 @@ body {
   }
 
 
+  @media (max-width: 1180px) {
+
+    .card-3 {
+      display: none;
+    }
+
+
+    .help-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+
+
+
+    }
+  }
+
+
+  @media (max-width: 980px) {
+
+    .footer-content-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+
+    }
+
+  }
+
+
+  @media (max-width: 880px) {
+
+    .pets-card {
+      margin-left: 16px;
+      margin-right: 16px;
+  
+    }
+
+
+    .button-donation-text {
+      font-size: 18px;
+    }
+
+  }
+
+
   @media (max-width: 768px) {
 
     .main-header {
@@ -1322,8 +1396,10 @@ body {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 768px;
-      height: 1048px;
+      max-width: 768px;
+      width: 100%;
+      max-height: 1048px;
+      height: 100%;
       
     }
 
@@ -1335,7 +1411,7 @@ body {
       align-items: center;
       width: 437px;
       height: 868px;
-      
+      margin-top: 90px;
     }
 
 
@@ -1359,9 +1435,20 @@ body {
     }
 
 
+    .pets-content {
+      margin-top: 56px;
+    }
+
+
+    .pets-heading {
+      margin-bottom: 84px;
+    }
+
+
     .pets-slider {
-      width: 708px;
-      height: 435px;
+      max-width: 708px;
+      width: 100%;
+      
       
     }
 
@@ -1386,8 +1473,8 @@ body {
 
 
     .help-content {
-      width: 630px;
-      height: 599px;
+      max-width: 630px;
+      width: 100%;
 
     }
 
@@ -1399,8 +1486,9 @@ body {
       flex-wrap: wrap;
       column-gap: 60px;
       row-gap: 55px;
-      width: 630px;
-      height: 449px;
+      max-width: 630px;
+      width: 100%;
+      
 
     }
 
@@ -1430,10 +1518,21 @@ body {
     }
 
 
+    .button-donation-text {
+      font-family: Georgia;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 23px;
+      letter-spacing: 0.06em;
+      text-align: left;
+      color: rgba(84, 84, 84, 1);
+    }
+
+
     .footer-content {
-      width: 768px;
-      height: 639px;
-      
+      max-width: 768px;
+      width: 100%;
+      padding-bottom: 0px;
     }
 
 
@@ -1443,15 +1542,24 @@ body {
       justify-content: center;
       flex-wrap: wrap;
       column-gap: 60px;
-      row-gap: 55px;
-      transform: translate(0px, 14px);
-      width: 768px;
-      height: 639px;
+      row-gap: 5px;
+      max-width: 768px;
+      width: 100%;
+      margin-top: 30px;
     }
 
 
     .footer-box {
+      margin-top: 0px;
+      margin-right: 0px;
       transform: translate(10px, 0px);
+    }
+
+
+    .footer-box1 {
+      margin-top: 0px;
+      margin-right: 0px;
+      
     }
 
 
@@ -1505,9 +1613,7 @@ body {
     }
 
 
-    .footer-puppy {
-      transform: translate(0px, -2px);
-    }
+
 
   }
 

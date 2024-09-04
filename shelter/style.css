@@ -170,8 +170,6 @@ body {
   .section-start-screen {
     max-width: 1280px;
     width: 100%;
-    max-height: 908px;
-    height: 100%;
     
   }
 
@@ -183,8 +181,6 @@ body {
     align-items: flex-end;
     max-width: 1200px;
     width: 100%;
-    max-height: 728px;
-    height: 100%;
     margin-top: 180px;
     margin-left: 40px;
     margin-right: 40px;
@@ -194,8 +190,9 @@ body {
   .start-screen-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
+    row-gap: 27px;
     max-width: 460px;
     width: 100%;
     margin-bottom: 242px;
@@ -211,8 +208,7 @@ body {
     margin: 0;
     text-align: left;
     color: rgba(255, 255, 255, 1);
-    margin-bottom: 31px;
-
+    
   }
 
 
@@ -223,7 +219,7 @@ body {
     line-height: 24px;
     text-align: left;
     color: rgba(205, 205, 205, 1);
-    margin-bottom: 39px;
+ 
   }
 
 
@@ -287,8 +283,6 @@ body {
   .section-about {
     max-width: 1280px;
     width: 100%;
-    max-height: 588px;
-    height: 100%;
     background: rgba(255, 255, 255, 1);
     
 
@@ -866,7 +860,7 @@ body {
   .footer-content-box {
     max-width: 1200px;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 42px;
     margin-left: 40px;
     margin-right: 40px;
 
@@ -876,15 +870,16 @@ body {
   .footer-box {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
-    
+    row-gap: 39px;
+
   }
 
 
   .footer-box {
-    min-width: 300px;
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     margin-bottom: 60px;
     margin-right: 40px;
   }
@@ -893,18 +888,19 @@ body {
   .footer-box1 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
-    
+    row-gap: 32px;
+    transform:translate(-11px, 0px)
   }
 
 
   .footer-box1 {
-    min-width: 300px;
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     margin-bottom: 60px;
     margin-right: 40px;
-    transform: translate(-11px,0px)
+    
   }
 
 
@@ -1380,7 +1376,7 @@ body {
       width: 100%;
       margin-bottom: 96px;
       margin-right: 124px;
-
+      row-gap: 29px;
     }
 
 
@@ -1556,13 +1552,13 @@ body {
       flex-direction: row;
       justify-content: center;
       flex-wrap: wrap;
-      column-gap: 50px;
+      column-gap: 40px;
       row-gap: 5px;
       max-width: 768px;
       width: 100%;
       margin-top: 30px;
       margin-left: 30px;
-      margin-right: 30px;      
+      margin-right: 30px;            
 
     }
 
@@ -1570,14 +1566,14 @@ body {
     .footer-box {
       margin-top: 0px;
       margin-right: 0px;
-      
+
     }
 
 
     .footer-box1 {
       margin-top: 0px;
       margin-right: 0px;
-      
+      transform: translate(0px, 0px);
     }
 
 
@@ -1759,8 +1755,8 @@ body {
       flex-direction: column;
       justify-content: flex-end;
       align-items: center;
-      width: 320px;
-      height: 823px;    
+      max-width: 320px;
+      width: 100%;
 
     }
     
@@ -1769,24 +1765,29 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
-      align-items: center;
+      align-items: flex-end;
     }
   
   
     .start-screen-block {
-      width: 300px;
-      height: 673px;
-      transform: translate(0px, -10px);
+      max-width: 300px;
+      width: 100%;
+      margin-top: 150px;
+      margin-left: 10px;
+      margin-right: 10px;
+
     }
 
 
     .start-screen-content {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
-      width: 300px;
-        
+      row-gap: 26px;
+      max-width: 300px;
+      width: 100%;
+      margin-bottom: 104px;
 
     }
 
@@ -1813,14 +1814,9 @@ body {
 
 
     .start-screen-puppy {
-      width: 260px;
-      height: 271.77px;
-      transform: translate(20px, 10px);
-    }
-
-    
-    .makeBtn {
-      transform: translate(0px, 2px);
+      max-width: 260px;
+      width: 100%;
+      
     }
 
 
@@ -1829,19 +1825,23 @@ body {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 320px;
-      height: 974px;     
-      
+      max-width: 320px;
+      width: 100%;  
+
     }
 
 
     .about-content {
       display: flex;
       flex-direction: column-reverse;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
-      width: 300px;
-      height: 890px;
+      max-width: 300px;
+      width: 100%;
+      margin-top: 44px;
+      margin-bottom: 44px;
+      margin-left: 15px;
+      margin-right: 10px;
       
     }
 
@@ -1849,12 +1849,12 @@ body {
     .about-shelter {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
       width: 300px;
-      height: 494px;
-      padding: 0px;
-
+      row-gap: 22px;
+      margin-bottom: 40px;
+     
     }
 
 
@@ -1865,61 +1865,70 @@ body {
       line-height: 32.5px;
       letter-spacing: 0.06em;
       text-align: center;
-      transform: translate(0px, 10px);
+      
     }
 
 
     .about-text-1 {
       display: block;
-      margin: 14px;
+      margin-left: 14px;
+      margin-right: 14px;
       font-family: Arial;
       font-size: 15px;
       font-weight: 400;
       line-height: 24px;
       text-align: justify;
-      transform: translate(0px, -7px);
+      
     }
 
 
     .about-text-2 {
       display: block;
-      margin: 14px;
+      margin-left: 14px;
+      margin-right: 14px;
       font-family: Arial;
       font-size: 15px;
       font-weight: 400;
       line-height: 24px;
       text-align: justify;
-      transform: translate(0px, -40px);      
+
+
     }
 
 
     .about-pets {
-      width: 260px;
-      height: 353.6px;      
-      transform: translate(0px, 0px);
+      max-width: 260px;
+      width: 100%; 
+      
+
     }
 
 
     .section-pets{
-      width: 320px;
-      height: 791px;
+      max-width: 320px;
+      width: 100%;
+      border: 1px solid red;
+
       
     }
 
 
     .pets-content {
-      width: 300px;
-      height: 707px;
+      max-width: 300px;
+      width: 100%;
+      margin-left: 10px;
+      margin-right: 10px;
+      border: 1px solid red;
 
     }
 
 
     .pets-slider {
       width: 270px;
-      height: 507px;
       justify-content: center;
       column-gap: 80px;
       flex-wrap: wrap-reverse;
+      border: 1px solid red;
 
     }
 
@@ -1931,7 +1940,8 @@ body {
       line-height: 32.5px;
       letter-spacing: 0.06em;
       text-align: center;
-      transform: translate(0px, 10px);
+      border: 1px solid red;
+
     }
 
 

@@ -850,6 +850,7 @@ body {
     align-items: flex-end;
   }
 
+  
   .footer-content {
     max-width: 1280px;
     width: 100%;
@@ -869,9 +870,22 @@ body {
   .footer-content-box {
     max-width: 1200px;
     width: 100%;
-    margin-top: 42px;
+    margin-top: 41px;
     margin-left: 40px;
     margin-right: 40px;
+
+  }
+  
+  
+  .footer-content-box-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 138px;
+    margin-bottom: 60px;
+    margin-right: 40px;
+    width: 100%;
 
   }
 
@@ -889,8 +903,7 @@ body {
   .footer-box {
     max-width: 300px;
     width: 100%;
-    margin-bottom: 60px;
-    margin-right: 40px;
+    
   }
 
 
@@ -900,15 +913,14 @@ body {
     justify-content: center;
     align-items: flex-start;
     row-gap: 32px;
-    transform:translate(-11px, 0px)
+    
   }
 
 
   .footer-box1 {
     max-width: 300px;
     width: 100%;
-    margin-bottom: 60px;
-    margin-right: 40px;
+    
     
   }
 
@@ -954,8 +966,8 @@ body {
 
   .footer-puppy {
     max-width: 300px;
-    width: 100%;
-    min-width: 120px;
+    width: 25%;
+    
   }
 
 
@@ -1318,6 +1330,17 @@ body {
 
     }
 
+
+    .footer-content-box-links {
+      column-gap: 40px;
+      margin-right: 0px;
+    }
+
+
+    .footer-puppy {
+      width: 100%;
+    }
+
   }
 
 
@@ -1552,7 +1575,7 @@ body {
     .footer-content {
       max-width: 768px;
       width: 100%;
-
+      
     }
 
 
@@ -1565,10 +1588,16 @@ body {
       row-gap: 5px;
       max-width: 768px;
       width: 100%;
-      margin-top: 30px;
+      margin-top: 32px;
       margin-left: 30px;
       margin-right: 30px;            
 
+    }
+
+
+    .footer-content-box-links {
+      column-gap: 38px; 
+      margin-right: 0px;
     }
 
 
@@ -1583,6 +1612,11 @@ body {
       margin-top: 0px;
       margin-right: 0px;
 
+    }
+
+
+    .footer-puppy {
+      width: 100%;
     }
 
 
@@ -1650,6 +1684,36 @@ body {
     .start-screen-content {
       margin-right: 0px;
 
+    }
+
+
+    .footer-content-box-links {
+      flex-direction: column;
+      align-items: center;
+      row-gap: 40px;
+
+    }
+
+
+    .footer-box {
+      align-items: center;
+
+    }
+
+    .footer-box1 {
+      align-items: center;
+
+    }
+
+
+    .footer-box-text {
+      text-align: center;
+    }
+
+
+    .footer-puppy {
+      max-width: 260px;
+      width: 100%;
     }
 
 
@@ -2103,41 +2167,49 @@ body {
 
     .donation-dog-img {
       width: 260px;
-      height: 135.2px;
+     
       
     }
 
 
     .footer-content {
       max-width: 320;
-      width: 100%px;
-      row-gap: 0px;
-      border: 1px solid red;
+      width: 100%;
+      
     }
 
 
     .footer-content-box {
       display: flex;
-      flex-direction: row;
-      justify-content: center;
+      flex-direction: column;
+      justify-content: flex-end;
       align-items: center;
       flex-wrap: wrap;
+      column-gap: 0px;
+      row-gap: 40px;
       max-width: 300px;
       margin-left: 10px; 
       margin-right: 10px;
-      border: 1px solid red;
+      
+    }
+
+
+    .footer-content-box-links {
+      max-width: 300px;
+      margin-bottom: 0px;
     }
 
 
 
     .footer-box {
       align-items: center;
-      border: 1px solid red;
+      
     }
 
 
     .footer-box1 {
-      border: 1px solid red;
+      align-items: flex-start;
+      row-gap: 39px;
   
     }
 
@@ -2146,7 +2218,7 @@ body {
       font-size: 25px;
       font-weight: 400;
       line-height: 32.5px;
-      letter-spacing: 0.06em;
+      letter-spacing: 0.08em;
       text-align: center;
       
     }
@@ -2157,7 +2229,7 @@ body {
       font-size: 20px;
       font-weight: 400;
       line-height: 23px;
-      letter-spacing: 0.02em;
+      letter-spacing: 0.06em;
       text-align: left;
       
     }
@@ -2165,7 +2237,8 @@ body {
 
     .footer-puppy {
       max-width: 260px;
-      border: 1px solid red;
+      width: 100%;
+      
     }
 
 
